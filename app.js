@@ -3,6 +3,8 @@ import Alligator from "./alligator.js";
 import Meerkat from "./meerkat.js";
 import Tribbles from "./tribbles.js";
 
+let food = "kibble"
+
 class Animals {
   constructor() {
     this.alligator = new Alligator({ name: "Tango", color: "blue", gender: "Male", weight: 300, tailLengthInch: 80, teethSize: "Huge" })
@@ -28,7 +30,10 @@ class Animals {
     this.tribble16 = new Tribbles({ name: "tribble", color: "brown", gender: "unknown", weight: 0.2, tailLengthInch: 0, teethSize: "none" })
     this.tribble17 = new Tribbles({ name: "tribble", color: "brown", gender: "unknown", weight: 0.2, tailLengthInch: 0, teethSize: "none" })
     this.tribble18 = new Tribbles({ name: "tribble", color: "brown", gender: "unknown", weight: 0.2, tailLengthInch: 0, teethSize: "none" })
+
   }
 }
+
+
 
 window["animals"] = new Animals()

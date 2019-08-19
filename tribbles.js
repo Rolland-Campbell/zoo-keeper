@@ -1,3 +1,6 @@
+let food = "everything"
+let noise = "purrrr"
+
 class Tribbles {
   constructor(input) {
     this.name = input.name;
@@ -6,10 +9,10 @@ class Tribbles {
     this.weight = input.weight;
     this.tailLengthInch = input.tailLengthInch;
     this.teethSize = input.teethSize;
-    console.log("Tribble Created!!")
+    console.log("Who fed the Tribble!!!!")
   }
   eat(food) {
-    console.log(`Chomp chomp all the ${food}ies.`)
+    console.log(`Chomp chomp ${food}.`)
   }
   speak(noise) {
     alert(`The ${this.constructor.name} says ${noise}!`)

@@ -1,3 +1,6 @@
+let food = "Nuts"
+let noise = "chirp chirp"
+
 class Meerkat {
   constructor(input) {
     this.name = input.name;
@@ -9,7 +12,7 @@ class Meerkat {
     console.log("Meerkat Created!!")
   }
   eat(food) {
-    console.log(`Chomp chomp all the ${food}ies.`)
+    console.log(`Chomp chomp all the ${food}.`)
   }
   speak(noise) {
     alert(`The ${this.constructor.name} says ${noise}!`)
